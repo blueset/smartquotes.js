@@ -85,3 +85,9 @@ Everything is converted except for `<code>`, `<script>`, `<style>`, and `<pre>` 
 If you find bugs or additions to the code, the best way to contribute is to fork this repo, make the changes (without updating version numbers), and make a pull request back to this repo to be merged in.
 
 The repository has Travis-CI running, but be sure to add any necessary tests and run `npm test` before opening a PR.
+
+## Fork note
+This fork by Eana Hufwe made the following changes:
+
+* Add `textarea` to the list of skipped elements.
+* Skip all `contentaditable` elements and their children.
